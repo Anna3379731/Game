@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".RulesOfTheGame">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="231dp"
+        android:layout_height="96dp"
+        android:fontFamily="@font/shrift"
+        android:gravity="center"
+        android:text="Правила игры"
+        android:textSize="27dp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="392dp"
+        android:layout_height="323dp"
+        android:fontFamily="@font/shrift"
+        android:gravity="center"
+        android:text="@string/rules"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="174dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
