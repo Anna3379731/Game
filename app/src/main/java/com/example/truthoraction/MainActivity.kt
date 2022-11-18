@@ -20,4 +20,18 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this@MainActivity, RulesOfTheGame::class.java)
         startActivity(intent)
     }
+
+    fun startClick(view: View) {
+        val intent = Intent(this@MainActivity,StartTheGame::class.java)
+        startActivity(intent)
+
+    }
+    fun tryeClick(view: View){
+        val intent = Intent(this@MainActivity,True_Game::class.java)
+        startActivity(intent)
+    }
+    fun actionClick(view: View){
+        val intent = Intent(this@MainActivity,ActionGame::class.java)
+         startActivity(intent)
+    }
 }
